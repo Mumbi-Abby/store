@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body, html{
+    background-color: rgb(247, 239, 241);
+}
+.header h1{
+    font-weight: 10;
+    font-size:large;
+    text-decoration: underline;
+    background-color:rgb(223, 215, 217);
+    padding-left: 40%;
+}
+.header .top{
+    font-weight: 100;
+    font-size: large;
+    padding-left: 40%;
+}
+.header .links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.snap{
+    position: relative;
+    display: flex;
+    
+}
+.snap img{
+    position: relative;
+    display: flex;
+    object-fit:contain; 
+    width: 100%;
+    height: auto;
+    
+
+}
+.main{
+   position: absolute; 
+   margin-top: -2px;
+}
+.mini img {
+   height: 150px;
+   width: 100px;
+   padding-left: 160px;
+}
+.mini h3  {
+    position: relative;
+    display: flex;
+    padding-left:8px;
+    font-weight: 60;
+    font-size: medium;
+    padding-left: 130px;
+}
+.mini p{
+    position: relative;
+    display: flex;
+    padding-left:130px;
+}
+.shirt{
+    margin-top: -207px;
+    margin-left: 20px;
+}
+.shirt img {
+    height: 150px;
+    width: 100px;
+    padding-left: 480px;
+    top: 50px;
+
+}
+.shirt h3{
+    position: relative;
+    display: flex;
+    padding-left: 450px;
+    font-weight: 60;
+    font-size: medium;
+}
+.shirt p{
+    position: relative;
+    display: flex;
+    padding-left:450px;
+}
+.heel{
+    margin-top: -207px;
+    margin-left: 20px;
+}
+.heel img{
+    height: 150px;
+    width: 100px;
+    padding-left: 800px;
+    top: 50px;
+
+}
+.heel h3{
+    position: relative;
+    display: flex;
+    padding-left: 770px;
+    font-weight: 60;
+    font-size: medium; 
+}
+.heel p{
+    position: relative;
+    display: flex;
+    padding-left:770px;
+}
+.green{
+    margin-top: -207px;
+    margin-left: 20px;  
+}
+.green img{
+    height: 150px;
+    width: 100px;
+    padding-left: 1130px;
+    top: 50px;
+}
+.green h3{
+    position: relative;
+    display: flex;
+    padding-left: 1100px;
+    font-weight: 60;
+    font-size: medium; 
+}
+.green p{
+    position: relative;
+    display: flex;
+    padding-left:1100px;
+}
+.men{
+  margin-top: -1%;  
+}
+.men img{
+   padding-left:150px ;
+   width: 250px;
+   height: auto;
+}
+.men h4{
+    padding-left: 570px;
+    bottom: 50%;
+    margin-top:10px ;
+    
+}
+.men span {
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+}
+.men h2{
+    padding-left: 570px;
+    margin-top: -25%;
+}
+
+.men p{
+    padding-left: 520px;
+    margin-top: -1%;
+}
